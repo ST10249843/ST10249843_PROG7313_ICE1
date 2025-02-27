@@ -1,12 +1,19 @@
 package com.st10249843.prog7313_ice1
 
 import android.os.Bundle
+import android.widget.Button
+import android.widget.EditText
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class Register : AppCompatActivity() {
+
+    private lateinit var enterEmail : EditText
+    private lateinit var Password : EditText
+    private lateinit var btnLogin : Button
+    private lateinit var btnRegister : Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
